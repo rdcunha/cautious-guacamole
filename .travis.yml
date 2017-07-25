@@ -23,8 +23,8 @@ before_install:
     - pip install -e .
 
 script:
-    - py.test -v
-#  - py.test -v --cov=./
+#- py.test -v
+    - py.test -v --cov=./
 
 # after_success:
 #   - ./tools/travis-upload-wheel.sh
