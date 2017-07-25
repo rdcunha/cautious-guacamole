@@ -11,11 +11,15 @@ def add(a, b):
 """
 Function to multiply two values
 """
+
+
 def mult(a1, a2):
     return a1 * a2
 """
 Function to divide the first value by the second
 """
+
+
 def div(a1, a2):
     if(a2 == 0):
         raise ZeroDivisionError("Cannot divide by 0! (duh)")
@@ -23,5 +27,7 @@ def div(a1, a2):
 """
 Function to give the remainder
 """
+
+
 def mod(a1, a2):
     return a1 % a2
