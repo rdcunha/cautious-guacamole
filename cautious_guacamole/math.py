@@ -26,7 +26,7 @@ def div(a1, a2):
     """
     if(a2 == 0):
         raise Exception("Cannot divide by 0! (duh)")
-    return a1 / a2
+    return float(a1) / float(a2)
 
 
 def mod(a1, a2):
