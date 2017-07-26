@@ -35,7 +35,7 @@ def mod(a1, a2):
     """
     return a1 % a2
 
-def sum(a):
+def sume(a):
     """
     Function to sum all the elements of an array
     """

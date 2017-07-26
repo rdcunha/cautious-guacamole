@@ -21,11 +21,11 @@ def test_mod():
     assert cg.mod(4, 3) == 1
     assert cg.mod(23, 7) == 2
 
-def test_sum():
+def test_sume():
     A = range(10)
-    assert cg.sum(A) == 45
+    assert cg.sume(A) == 45
 
-@pytest.mark.parametrize("in1, in2, expected", [ (3, 2, 9), (20, 2, 400), (1, 10, 1), ])
+@pytest.mark.parametrize("in1, in2, expected", [ (3, 2, 9), (20, 2, 400), (1, 10, 1), (10, 0, 1)])
 
 def test_pow(in1, in2, expected):
     assert cg.pow(in1, in2) == expected
