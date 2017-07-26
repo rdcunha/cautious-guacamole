@@ -25,7 +25,7 @@ def div(a1, a2):
     Function to divide the first value by the second
     """
     if(a2 == 0):
-        raise ZeroDivisionError("Cannot divide by 0! (duh)")
+        raise Exception("Cannot divide by 0! (duh)")
     return a1 / a2
 
 
